@@ -42,6 +42,10 @@ values (01,'Sanika Mahajan', 1234567890, 'sanika2110mahajan@gmail.com'),
 	   (04,'Kedar Kulkarni', 6789054321, 'kedarvijaykulkarni@gmail.com'),
 	   (05, 'J Balvin', 1213141516, 'josealvaroosoriobalvin@gmail.com')
 
+to create virtual
+$cd backend
+$python -m venv .venv
+pip install
      
 To Run Backend 
 $cd backend
