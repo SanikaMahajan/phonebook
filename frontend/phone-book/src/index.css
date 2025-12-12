@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  /* Table Styles */
+  table {
+    @apply w-full text-left border-collapse mt-4;
+  }
+  
+  th {
+    @apply p-4 border-b border-gray-700 text-sm font-semibold text-gray-200 uppercase;
+  }
+  
+  td {
+    @apply p-4 border-b border-gray-700 text-gray-300;
+  }
+
+  /* Button/Link Styles */
+  a {
+    @apply text-blue-400 hover:text-blue-300 transition-colors;
+  }
+}
