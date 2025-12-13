@@ -45,7 +45,7 @@ values (01,'Sanika Mahajan', 1234567890, 'sanika2110mahajan@gmail.com'),
 to create virtual
 $cd backend
 $python -m venv .venv
-pip install
+$pip install fastapi uvicorn sqlalchemy psycopg2 pydantic
      
 To Run Backend 
 $cd backend
